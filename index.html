@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>24 Días Contigo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <h1 id="titulo-calendario">🎄 24 DIAS CONTIGO 🎄</h1>
+    <p id="estado-fecha"></p>
+  </header>
+
+  <main id="calendario" class="grid-calendario"></main>
+
+  <!-- Ventana flotante (modal) -->
+  <div id="modal" class="modal oculto" role="dialog" aria-modal="true">
+    <div class="modal-contenido">
+      <button id="cerrar-modal" class="cerrar" aria-label="Cerrar">&times;</button>
+      <span id="modal-dia" class="badge-dia"></span>
+      <h2 id="modal-titulo"></h2>
+      <p id="modal-descripcion"></p>
+      <img id="modal-imagen" class="modal-imagen oculto" alt="Foto del día" />
+      <a id="modal-enlace" class="btn-enlace oculto" target="_blank" rel="noopener noreferrer"></a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
