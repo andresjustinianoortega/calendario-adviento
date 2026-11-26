@@ -2,9 +2,7 @@
 const actividades = [
   { dia: 1, titulo: "BIENVENIDA A NUESTRO DICIEMBRE", 
       descripcion: "Hola mi amorrr, este es nuestro calendario de adviento. Cada dia del mes hasta navidad se vienen cosas bonitas. ¡Prepárate para 24 días de sorpresas! \n\n Como primer dia, te prepare una carta para ti, para que sepas lo mucho que te amo y lo feliz que me hace tenerte en mi vida. ¡Espero que te guste!", 
-      imagen: "", 
-      enlace: "", 
-      textoEnlace: "Ver enlace" },
+      imagen: "nosotroscongorritos.png"},
   { dia: 2, titulo: "Actividad Día 2", descripcion: "Descripción de la actividad del día 2.", imagen: "", enlace: "", textoEnlace: "Ver enlace" },
   { dia: 3, titulo: "Actividad Día 3", descripcion: "Descripción de la actividad del día 3.", imagen: "", enlace: "", textoEnlace: "Ver enlace" },
   { dia: 4, titulo: "Actividad Día 4", descripcion: "Descripción de la actividad del día 4.", imagen: "", enlace: "", textoEnlace: "Ver enlace" },
